@@ -1,0 +1,9 @@
+@startuml X
+!define DARKGREEN
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class RotiDemo {
+    ~public static void main(String[] args)
+}
+
+@enduml

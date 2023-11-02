@@ -1,0 +1,15 @@
+@startuml RotiDemo
+skinparam roundcorner 5
+skinparam ClassBorderThickness 1
+skinparam class {
+    BackgroundColor #222222
+    ArrowColor DarkSeaGreen
+    BorderColor DarkSeaGreen
+    FontColor White
+}
+
+class RotiDemo {
+    +{static}main(String[] args) : void 
+}
+
+@enduml

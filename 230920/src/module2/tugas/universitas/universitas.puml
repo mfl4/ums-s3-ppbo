@@ -1,0 +1,47 @@
+@startuml universitas
+
+skinparam RoundCorner 10
+skinparam ClassBorderThickness 1
+skinparam class {
+    BackgroundColor #222222
+    ArrowColor DarkSeaGreen
+    BorderColor DarkSeaGreen
+    FontColor White
+}
+
+class Dosen {
+    nama: String
+    nik: int
+    pendidikan: String
+    tglLahir: date
+
+    tampilkanNama()
+    tampilkanTglLahir()
+    tampilkanNik()
+}
+
+class Karyawan {
+    nama: String
+    alamat: String
+    jabatan: String
+    gaji: double
+
+    tampilkanNama()
+    tampilkanJabatan()
+    tampilkanAlamat()
+    tampilkanGaji()
+}
+
+class Mahasiswa {
+    nama: String
+    nim: String
+    alamat: String
+    semester: int
+
+    tampilkanNama()
+    tampilkanNim()
+    tampilkanAlamat()
+    tampilkanSemester()
+}
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml X
+!define DARKRED
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class x {
+    ~public static void main(String[] args)
+}
+
+@enduml
