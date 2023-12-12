@@ -11,7 +11,7 @@ public class LampApplication {
         lamp.lampStatus = lamp.setSwitch(0);
 
         while (lamp.lampStatus == 0 || lamp.lampStatus == 1 || lamp.lampStatus == 2) {
-            System.out.println("Lamp Status = " + lamp.lampStatus);
+            System.out.println("\nLamp Status = " + lamp.lampStatus);
             System.out.println("Type\n0 to turn the light off\n1 to turn the light on\n2 to turn the light dim");
 
             int input = scanner.nextInt();
