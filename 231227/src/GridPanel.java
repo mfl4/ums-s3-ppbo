@@ -6,7 +6,7 @@ import java.awt.GridLayout;
 public class GridPanel extends JPanel {
     public GridPanel() {
         setLayout(new GridLayout(2, 3));
-        setBackground(Color.green);
+        setBackground(Color.PINK);
         JButton b1 = new JButton("BUTTON 1");
         JButton b2 = new JButton("BUTTON 2");
         JButton b3 = new JButton("BUTTON 3");
