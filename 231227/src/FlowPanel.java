@@ -6,7 +6,7 @@ import java.awt.FlowLayout;
 public class FlowPanel extends JPanel {
     public FlowPanel() {
         setLayout(new FlowLayout());
-        setBackground(Color.green);
+        setBackground(Color.CYAN);
         JButton b1 = new JButton("BUTTON 1");
         JButton b2 = new JButton("BUTTON 2");
         JButton b3 = new JButton("BUTTON 3");
