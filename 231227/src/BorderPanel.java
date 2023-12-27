@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 public class BorderPanel extends JPanel {
     public BorderPanel() {
         setLayout(new BorderLayout());
-        setBackground(Color.green);
+        setBackground(Color.ORANGE);
         JButton b1 = new JButton("BUTTON 1");
         JButton b2 = new JButton("BUTTON 2");
         JButton b3 = new JButton("BUTTON 3");
